@@ -16,7 +16,7 @@ if __name__ == '__main__':
     # { 'success': True, 'status': 200, 'url': 'https://hastebin.com/hajidofocu.kotlin', 'created_at': '2021-06-24 10:33:50.156000', 'code': 'hajidofocu.kotlin' }
 ```
 ```python
-import aiohttp, asyncio
+import asyncio
 from hastebin import AsyncPaste
 
 async def main():

@@ -13,7 +13,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-    # { 'success': True, 'status': 200, 'url': 'https://hastebin.com/hajidofocu.kotlin', 'created_at': '2021-06-24 10:33:50.156000', 'code': 'hajidofocu.kotlin' }
 ```
 ```python
 import asyncio
@@ -28,6 +27,5 @@ async def main():
 if __name__ == '__main__':
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
-    # { 'success': True, 'status': 200, 'url': 'https://hastebin.com/hajidofocu.kotlin', 'created_at': '2021-06-24 10:33:50.156000', 'code': 'hajidofocu.kotlin' }
 ```
 Found Error? Have Suggestion? Consider opening up an issue!

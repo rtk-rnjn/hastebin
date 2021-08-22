@@ -1,7 +1,7 @@
 # hastebin.py
 A simple Hastebin Python wrapper. This is kinda useless but its important.
 
-Its super easy to use, supports both `aiohttp 3.7.4.post0` and `requests 2.25.1` module.
+Its super easy to use, supports both `aiohttp` and `requests` module.
 ```python
 from hastebin import Paste
 

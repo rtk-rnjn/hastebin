@@ -26,7 +26,7 @@ async def AsyncPaste(text: str, language: str = None) -> str:
             "https://bin.readthedocs.fr/new",
             data={
                 "code": text,
-                "lang": f'{language if language else "txt"}'
+                "lang": language or "txt",
             },
         )
         if post.status == 200:
@@ -54,7 +54,7 @@ def Paste(text: str, language: str = None) -> str:
         "https://bin.readthedocs.fr/new",
         data={
             "code": text,
-            "lang": f'{language if language else "txt"}'
+            "lang": language or "txt",
         },
     )
     if post.status_code == 200:
